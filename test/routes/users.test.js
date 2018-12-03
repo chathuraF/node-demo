@@ -1,5 +1,6 @@
-const app = require('../../app')
-const request = require('supertest')
+const app = require('../../app');
+const request = require('supertest');
+const expect = require('chai').expect;
 
 
 describe('GET /user', function() {
